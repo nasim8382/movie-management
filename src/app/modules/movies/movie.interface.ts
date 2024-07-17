@@ -9,7 +9,8 @@ export type TMovie = {
   description: string;
   releaseDate: Date;
   genre: string;
-  isDeleted: boolean;
+  slug: string;
+  isDeleted?: boolean;
   viewCount: number;
   reviews: [TReview];
 };
